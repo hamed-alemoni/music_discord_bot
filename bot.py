@@ -9,7 +9,7 @@ from discord import FFmpegPCMAudio, PCMVolumeTransformer
 
 
 class Config:
-    TOKEN = 'OTIxMDg0Njc2OTU1ODQ4NzY0.Ybtw8w.dVCcutbdEYrdaIBp975llWwovds'
+    TOKEN = ''
     PREFIX = '..'
 
 
