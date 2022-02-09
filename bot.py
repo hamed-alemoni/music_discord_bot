@@ -1,15 +1,14 @@
 from discord.ext import commands
 import discord
 import os
-from download_music import YTDLSource
 import pafy, urllib, re
 from discord import FFmpegPCMAudio, PCMVolumeTransformer
-
+from decouple import config
 
 
 
 class Config:
-    TOKEN = ''
+    TOKEN = config('TOKEN')
     PREFIX = '..'
 
 
